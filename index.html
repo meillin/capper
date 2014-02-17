@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en" ng-app>
+<html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="css/foundation.min.css" />
     <link rel="stylesheet" href="css/site.css" />
     <script src="js/vendor/modernizr.js"></script>
-    <script src="bower_components/angular/angular.min.js"></script>
+    <script data-main="js/main.js" src="bower_components/requirejs/require.js"></script>
   </head>
   <body>
      <!-- Header and Nav -->
   <nav class="top-bar" data-topbar ng-include src="'template/header.html'">
   </nav>
  
- 
+ <div ng-view></div>
   <!-- End Header and Nav -->
  
   <!-- Main Grid Section -->

@@ -5,22 +5,12 @@ define(['angularAMD', 'angular-route', 'angular-animate'], function (angularAMD)
      */
     app.config(['$routeProvider', function ($routeProvider) {
         $routeProvider.
-            when("/movies",
-				angularAMD.route({
-					templateUrl: 'views/movies.html',
-					controller: 'MovieController'
-            })).
-            when("/shop",
-					angularAMD.route({
-					templateUrl: 'views/shop.html',
-					controller: 'ShopController'
-			})).
 			when("/about",
 					angularAMD.route({
-					templateUrl: 'views/about.html',
+					templateUrl: 'template/about.html',
 					controller: 'AboutController'
 			})).
-			otherwise({redirectTo: '/'});
+			otherwise({redirectTo: '/about'});
     }]);
 
      // Bootstrap Angular when DOM is ready
