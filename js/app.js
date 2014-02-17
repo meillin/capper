@@ -10,7 +10,12 @@ define(['angularAMD', 'angular-route', 'angular-animate'], function (angularAMD)
 					templateUrl: 'template/about.html',
 					controller: 'AboutController'
 			})).
-			otherwise({redirectTo: '/about'});
+			when("/",
+				angularAMD.route({
+					templateUrl: 'template/main.html',
+					controller: 'IndexController'
+			})).
+			otherwise({redirectTo: ''});
     }]);
 
      // Bootstrap Angular when DOM is ready

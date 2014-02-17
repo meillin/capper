@@ -9,6 +9,7 @@ require.config({
         'angular-animate': '../bower_components/angular-animate/angular-animate.min',
         'ngload': '../bower_components/angularAMD/ngload.min',
 
+        'IndexController' : 'controller/index_ctrl',
         'AboutController': 'controller/about_ctrl'
 
     },
