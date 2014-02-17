@@ -1,0 +1,19 @@
+{
+  "name": "capper",
+  "version": "0.0.0",
+  "description": "A front-end framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meillin/capper.git"
+  },
+  "author": "Meilan Lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meillin/capper/issues"
+  },
+  "homepage": "https://github.com/meillin/capper"
+}
