@@ -1,0 +1,15 @@
+/* line 5, ../sass/site.scss */
+body {
+  background: teal;
+  color: white;
+}
+
+/* line 10, ../sass/site.scss */
+a {
+  color: white;
+}
+
+/* line 14, ../sass/site.scss */
+h1 {
+  color: #e2e68a;
+}

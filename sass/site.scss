@@ -1,0 +1,16 @@
+$background : teal;
+$white: white;
+$navBackground: #4C9971;
+$yellow: #E2E68A;
+body {
+	background : $background;
+	color: $white;
+}
+
+a {
+	color: $white;
+}
+
+h1 {
+	color: $yellow;
+}

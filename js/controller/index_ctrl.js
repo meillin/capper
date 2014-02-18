@@ -6,7 +6,7 @@ define(['app'], function (app) {
 		$scope.pagetitle = "INDEX";
     });
 
-    app.register.controller('BowerController', function($scope) {
+    app.register.controller('testController', function($scope) {
 		$scope.logoUrl = imgPath + 'bower.png';
 	});
 
