@@ -16,5 +16,5 @@ For minified files
 </code></pre>
 
 For un-minified files 
-<pre><code>npm dev
+<pre><code>gulp dev
 </code></pre>
