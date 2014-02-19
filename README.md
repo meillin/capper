@@ -10,8 +10,11 @@ In root run
 </code></pre>
 
 Gulp Tasks
-<pre><code>gulp min
-</code></pre>for minified files
 
+For minified files
+<pre><code>gulp min
+</code></pre>
+
+For un-minified files 
 <pre><code>npm dev
-</code></pre>for un-minified files 
+</code></pre>
